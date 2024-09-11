@@ -1,13 +1,46 @@
-.box {
-  width: 160px;
+:root {
+  --color: lightgreen;
+}
+
+.gy {
+  width: 3ch;
   /* 外盒子相对定位，便于伪元素绝对定位(使下划线在文字的最底下) */
+  position: relative
+}
+.name {
+  width: 4ch;
   position: relative;
 }
 
+.driver {
+  width: 6ch;
+  position: relative;
+}
+
+.mail {
+  width: 4ch;
+  position: relative;
+}
+
+.UTAC99645 {
+  width: 19ch;
+  position: relative;
+}
+
+.work {
+  width: 4ch;
+  position: relative;
+}
+
+h1{
+  text-align: center
+}
+
 h1::before {
+  text-align: right;
   content: '';
   height: 4px;
-  background: red;
+  background: var(--color);
   /* 伪元素默认样式 display: inline;所以需要转成inline-block宽高才会生效 */
   display: inline-block;
   /* 通过定位使下划线在最低层 */
@@ -15,7 +48,7 @@ h1::before {
   bottom: -6px;
   width: 0;
   /* 加上一个过渡效果，使之丝滑一些 */
-  transition: width 0.36s;
+  transition: width 0.5s;
 }
 
 h1:hover::before {
