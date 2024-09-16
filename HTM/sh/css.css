@@ -3,7 +3,21 @@
   /* 外盒子相对定位，便于伪元素绝对定位(使下划线在文字的最底下) */
   position: relative;
 }
-
+.z3 {
+  width: 3ch;
+  /* 外盒子相对定位，便于伪元素绝对定位(使下划线在文字的最底下) */
+  position: relative;
+}
+.z4 {
+  width: 4ch;
+  /* 外盒子相对定位，便于伪元素绝对定位(使下划线在文字的最底下) */
+  position: relative;
+}
+.z5 {
+  width: 5ch;
+  /* 外盒子相对定位，便于伪元素绝对定位(使下划线在文字的最底下) */
+  position: relative;
+}
 h1::before {
   content: '';
   height: 4px;
