@@ -2,38 +2,50 @@
   --color: lightgreen;
 }
 
-.gy {
+img{
+    clear: both;
+    display: block;
+    margin: auto;
+
+};
+
+.ABOUT {
   width: 3ch;
-  /* 外盒子相对定位，便于伪元素绝对定位(使下划线在文字的最底下) */
-  position: relative
+  position: relative;
+  text-align: right;
 }
 .name {
   width: 4ch;
   position: relative;
+  text-align: right;
 }
 
 .driver {
   width: 6ch;
   position: relative;
+  text-align: right;
 }
 
 .mail {
   width: 4ch;
   position: relative;
+  text-align: right;
 }
 
 .UTAC99645 {
   width: 19ch;
   position: relative;
+  text-align: right;
 }
 
 .work {
   width: 4ch;
   position: relative;
+  text-align: right;
 }
 
 h1{
-  text-align: center
+  text-align: right;
 }
 
 h1::before {
@@ -54,4 +66,5 @@ h1::before {
 h1:hover::before {
   /* 悬浮时候，让下划线伪元素宽度变成100%即可出现效果 */
   width: 100%;
+  text-align: right
 }
