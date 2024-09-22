@@ -1,6 +1,6 @@
 :root {
   --color: lightgreen;
-}
+};
 
 img{
     clear: both;
@@ -9,45 +9,44 @@ img{
 
 };
 
+.man {
+  width: 8ch;
+  position: relative;
+  text-align: right;
+};
 .ABOUT {
   width: 3ch;
   position: relative;
   text-align: right;
-}
+};
 .name {
   width: 4ch;
   position: relative;
   text-align: right;
-}
-
+};
 .driver {
   width: 6ch;
   position: relative;
   text-align: right;
-}
-
+};
 .mail {
   width: 4ch;
   position: relative;
   text-align: right;
-}
-
+};
 .UTAC99645 {
   width: 19ch;
   position: relative;
   text-align: right;
-}
-
+};
 .work {
   width: 4ch;
   position: relative;
   text-align: right;
-}
-
+};
 h1{
   text-align: right;
-}
-
+};
 h1::before {
   text-align: right;
   content: '';
