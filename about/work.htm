@@ -11,19 +11,18 @@
 
 <body>
   <header>
-        <a href="https://space.bilibili.com/3493135598487801" class="logo">
+    <a href="https://space.bilibili.com/3493135598487801" class="logo">
       Hard_Driver
     </a>
     <ul>
       <li><a href="/index.html">Home</a></li>
       <li><a href="/about/about.htm">About</a></li>
       <li><a class="active" href="/about/work.htm">Work</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="Love.htm">Love</a></li>
     </ul>
   </header>
   <section>
-    <img src="/res/DE/1.jpg" id="stars">
-    <img src="/res/images/moon.png" id="moon">
+    <img src="/bg/nazo_shizuku.png" id="nano">
     <img src="/bg/01.png" id="mountains_behind">
     <h2 id="text">UTAC99645</h2>
     <a href="#sec" id="btn">Explore</a>
@@ -117,25 +116,7 @@
     </p>
   </div>
 
-  <script>
-    let stars = document.getElementById('stars')
-    let mountains_behind = document.getElementById('mountains_behind')
-    let text = document.getElementById('text')
-    let btn = document.getElementById('btn')
-    let mountains_front = document.getElementById('mountains_front')
-    let header = document.querySelector('header')
-
-    window.addEventListener('scroll', function () {
-      let value = window.scrollY;
-      stars.style.left = value * 0.25 + 'px'
-      moon.style.top = value * 1.05 + 'px'
-      mountains_behind.style.top = value * 0.5 + 'px'
-      mountains_front.style.top = value * 0 + 'px'
-      text.style.marginRight = value * 4 + 'px'
-      text.style.marginTop = value * 1.5 + 'px'
-      btn.style.marginTop = value * 1.5 + 'px'
-      header.style.top = value * 0.5 + 'px'
-    })
+  <script src="/sh/js2.js">
   </script>
 </body>
 

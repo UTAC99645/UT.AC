@@ -10,19 +10,18 @@
 
 <body>
   <header>
-        <a href="https://space.bilibili.com/3493135598487801" class="logo">
+    <a href="https://space.bilibili.com/3493135598487801" class="logo">
       Hard_Driver
     </a>
     <ul>
       <li><a class="active" href="/index.html">Home</a></li>
       <li><a href="/about/about.htm">About</a></li>
       <li><a href="/about/work.htm">Work</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="/about/Love.htm">Love</a></li>
     </ul>
   </header>
   <section>
-    <img src="/res/DE/1.jpg" id="stars">
-    <img src="/res/images/moon.png" id="moon">
+    <img src="/bg/nazo_shizuku.png" id="nano">
     <img src="/bg/01.png" id="mountains_behind">
     <h2 id="text">UTAC99645</h2>
     <a href="#sec" id="btn">Explore</a>
@@ -39,54 +38,36 @@
       <a href="F.htm">
         <img src="https://utac99645.github.io/file.put/res/F.02.jpg" width="49%" />
       </a>
-      <table>
-        <tr>
-          <video autoplay poster="res/Lod.gif" width="50%" loop>
-            <source src="https://utac99645.github.io/file.put/res/GV4AUzDWwAA83FV.mp4" type="video/mp4">
-          </video>
-        </tr>
-        <tr>
-          <video autoplay poster="res/Lod.gif" width="50%" loop>
-            <source src="https://utac99645.github.io/file.put/res/bau.mp4" type="video/mp4">
-          </video>
-        </tr>
-      </table>
-      <a href="EVIL.LOVE.HTM">
-        <img width="100%" src="res/T/E.gif" />
+    <table>
+      <tr>
+        <video autoplay poster="res/Lod.gif" width="50%" loop>
+          <source src="https://utac99645.github.io/file.put/res/GV4AUzDWwAA83FV.mp4" type="video/mp4">
+        </video>
+      </tr>
+      <tr>
+        <video autoplay poster="res/Lod.gif" width="50%" loop>
+          <source src="https://utac99645.github.io/file.put/res/bau.mp4" type="video/mp4">
+        </video>
+      </tr>
+    </table>
+    <a href="EVIL.LOVE.HTM">
+      <img width="100%" src="res/T/E.gif" />
+    </a>
+    <hr>
+    <h1 class="box">
+      <a href="big.tes.htm" style="color: red">
+        BIG TE
       </a>
-      <hr>
-      <h1 class="box">
-        <a href="big.tes.htm" style="color: red">
-          BIG TE
-        </a>
-        <a href="sb.htm" style="color: red">
-          S
-        </a>
-        <a href="big.tes.htm" style="color: red">
-          T
-        </a>
-    </p>
+      <a href="sb.htm" style="color: red">
+        S
+      </a>
+      <a href="big.tes.htm" style="color: red">
+        T
+      </a>
+      </p>
   </div>
 
-  <script>
-    let stars = document.getElementById('stars')
-    let mountains_behind = document.getElementById('mountains_behind')
-    let text = document.getElementById('text')
-    let btn = document.getElementById('btn')
-    let mountains_front = document.getElementById('mountains_front')
-    let header = document.querySelector('header')
-
-    window.addEventListener('scroll', function () {
-      let value = window.scrollY;
-      stars.style.left = value * 0.25 + 'px'
-      moon.style.top = value * 1.05 + 'px'
-      mountains_behind.style.top = value * 0.5 + 'px'
-      mountains_front.style.top = value * 0 + 'px'
-      text.style.marginRight = value * 4 + 'px'
-      text.style.marginTop = value * 1.5 + 'px'
-      btn.style.marginTop = value * 1.5 + 'px'
-      header.style.top = value * 0.5 + 'px'
-    })
+  <script src="/sh/js2.js">
   </script>
 </body>
 
