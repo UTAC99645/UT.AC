@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'ziti';
-  src: url('fusion-pixel-12px-monospaced-ko.ttf') format('truetype');
+  src: url('https://utac.us.kg/about/S/DottedSongtiSquareRegular.otf) format('truetype');
 }
 
 h1 {
@@ -40,5 +40,20 @@ a{
   font-family: "ziti";
 }
 p{
+  font-family: "ziti";
+}
+button{
+  font-family: "ziti";
+}
+html {
+  font-family: "ziti";
+}
+td {
+  font-family: "ziti";
+}
+th {
+  font-family: "ziti";
+}
+tr {
   font-family: "ziti";
 }
