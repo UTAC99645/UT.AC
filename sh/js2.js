@@ -7,6 +7,6 @@ window.addEventListener('scroll', function () {
     let value = window.scrollY;
     mountains_behind.style.top = value * 4 + 'px'
     mountains_front.style.top = value * 2 + 'px'
-    text.style.marginRight = value * 2 + 'px'
+    text.style.marginRight = value * 1.5 + 'px'
     text.style.marginTop = value * 1.5 + 'px'
 })
