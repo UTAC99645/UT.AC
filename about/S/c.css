@@ -1,59 +1,69 @@
 @font-face {
   font-family: 'ziti';
-  src: url('https://utac.us.kg/about/S/DottedSongtiSquareRegular.otf) format('truetype');
-}
+  src: url ('https://utac.us.kg/about/S/DottedSongtiSquareRegular.otf) format(' truetype')
 
-h1 {
-  font-family: "ziti";
-}
+  }
 
-h2 {
-  font-family: "ziti";
-}
+  h1 {
+    font-family: "ziti";
+  }
 
-h3 {
-  font-family: "ziti";
-}
+  h2 {
+    font-family: "ziti";
+  }
 
-h4 {
-  font-family: "ziti";
-}
+  h3 {
+    font-family: "ziti";
+  }
 
-h5 {
-  font-family: "ziti";
-}
+  h4 {
+    font-family: "ziti";
+  }
 
-h6 {
-  font-family: "ziti";
-}
+  h5 {
+    font-family: "ziti";
+  }
 
-div {
-  font-family: "ziti";
-}
-p{
-  font-family: "ziti";
-}
-main{
-  font-family: "ziti";
-}
-a{
-  font-family: "ziti";
-}
-p{
-  font-family: "ziti";
-}
-button{
-  font-family: "ziti";
-}
-html {
-  font-family: "ziti";
-}
-td {
-  font-family: "ziti";
-}
-th {
-  font-family: "ziti";
-}
-tr {
-  font-family: "ziti";
-}
+  h6 {
+    font-family: "ziti";
+  }
+
+  div {
+    font-family: "ziti";
+  }
+
+  p {
+    font-family: "ziti";
+  }
+
+  main {
+    font-family: "ziti";
+  }
+
+  a {
+    font-family: "ziti";
+  }
+
+  p {
+    font-family: "ziti";
+  }
+
+  button {
+    font-family: "ziti";
+  }
+
+  html {
+    font-family: "ziti";
+  }
+
+  td {
+    font-family: "ziti";
+  }
+
+  th {
+    font-family: "ziti";
+  }
+
+  tr {
+    font-family: "ziti";
+  }
