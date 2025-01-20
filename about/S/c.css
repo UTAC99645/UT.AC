@@ -1,69 +1,152 @@
-@font-face {
-  font-family: 'ziti';
-  src: url ('/about/S/Quicksand-Bold.ttf') format (' truetype');
+@-moz-document regexp("^")
+{
+    @font-face
+    {
+        font-family: 'ft';
+        src: url(https://utac.us.kg/about/S/Quicksand-Bold.ttf) format('truetype');
+    }
 
-  }
+    body
+    {
+        font-family: "ft";
+        background-image: url(https://utac.us.kg/bg/107290818_p0.png);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
 
-  h1 {
-    font-family: "ziti";
-  }
+    h1
+    {
+        font-family: "ft";
+    }
 
-  h2 {
-    font-family: "ziti";
-  }
+    h2
+    {
+        font-family: "ft";
+    }
 
-  h3 {
-    font-family: "ziti";
-  }
+    h3
+    {
+        font-family: "ft";
+    }
 
-  h4 {
-    font-family: "ziti";
-  }
+    h4
+    {
+        font-family: "ft";
+    }
 
-  h5 {
-    font-family: "ziti";
-  }
+    h5
+    {
+        font-family: "ft";
+    }
 
-  h6 {
-    font-family: "ziti";
-  }
+    h6
+    {
+        font-family: "ft";
+    }
 
-  div {
-    font-family: "ziti";
-  }
+    div
+    {
+        font-family: "ft"
+    }
 
-  p {
-    font-family: "ziti";
-  }
+    html
+    {
+        font-family: "ft";
+    }
 
-  main {
-    font-family: "ziti";
-  }
+    p
+    {
+        font-family: "ft";
+    }
 
-  a {
-    font-family: "ziti";
-  }
+    main
+    {
+        font-family: "ft";
+    }
 
-  p {
-    font-family: "ziti";
-  }
+    a
+    {
+        font-family: "ft";
+    }
 
-  button {
-    font-family: "ziti";
-  }
+    p
+    {
+        font-family: "ft";
+    }
 
-  html {
-    font-family: "ziti";
-  }
+    th
+    {
+        font-family: "ft";
+    }
 
-  td {
-    font-family: "ziti";
-  }
+    td
+    {
+        font-family: "ft";
+    }
 
-  th {
-    font-family: "ziti";
-  }
+    tr
+    {
+        font-family: "ft";
+    }
 
-  tr {
-    font-family: "ziti";
-  }
+    button
+    {
+        font-family: "ft";
+    }
+
+    script
+    {
+        font-family: "ft";
+    }
+
+    link
+    {
+        font-family: "ft";
+    }
+
+    meta
+    {
+        font-family: "ft";
+    }
+
+    use
+    {
+        font-family: "ft";
+    }
+
+    ui
+    {
+        font-family: "ft";
+    }
+
+    ul
+    {
+        font-family: "ft";
+    }
+
+    header
+    {
+        font-family: "ft";
+    }
+
+    li
+    {
+        font-family: "ft";
+    }
+
+    ol
+    {
+        font-family: "ft";
+    }
+
+    path
+    {
+        font-family: "ft";
+    }
+
+    span
+    {
+        font-family: "ft";
+    }
+}
